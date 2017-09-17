@@ -1,0 +1,27 @@
+{
+  "name": "fsjs_project6_contentscraper",
+  "version": "1.0.0",
+  "description": "create a Node.js command line application that goes to an ecommerce site to get the latest prices and save them to a spreadsheet (CSV format).",
+  "main": "scraper.js",
+  "dependencies": {
+    "scrape-it": "^3.3.3"
+  },
+  "devDependencies": {
+    "json2csv": "^3.11.2",
+    "scrape-it": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "content",
+    "scraper",
+    "scraper",
+    "treehouse"
+  ],
+  "author": "Chelsea Clay",
+  "license": "MIT",
+  "scripts": {
+    "start": "node scraper.js"
+  }
+}
